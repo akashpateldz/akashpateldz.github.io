@@ -1,0 +1,5 @@
+
+🚀 VBH Server running on http://localhost:5001
+📊 Health check: http://localhost:5001/api/health
+
+✅ MongoDB Connected: localhost

@@ -1,0 +1,486 @@
+
+> vibrant-branding-hub@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 5s
+ ○ Compiling / ...
+ ✓ Compiled / in 16.9s (1409 modules)
+ GET / 200 in 17399ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 3.6s (1421 modules)
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 2.5s (1450 modules)
+ ○ Compiling /dashboard/assets ...
+ ✓ Compiled /dashboard/assets in 1059ms (1460 modules)
+ ○ Compiling /dashboard/progress ...
+ ✓ Compiled /dashboard/progress in 1119ms (1468 modules)
+ ○ Compiling /dashboard/brand ...
+ ✓ Compiled /dashboard/brand in 1024ms (1476 modules)
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 4.9s (1481 modules)
+ ○ Compiling /dashboard/progress ...
+ ✓ Compiled /dashboard/progress in 768ms (712 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 649ms (751 modules)
+ GET / 200 in 1067ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 2.4s (1504 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1096ms (1499 modules)
+ GET /admin/users 404 in 418ms
+ GET /admin/dashboard 200 in 120ms
+ GET /admin/analytics 404 in 54ms
+ GET /admin/dashboard 200 in 123ms
+ GET /admin/settings 404 in 78ms
+ GET /admin/dashboard 200 in 129ms
+ GET /admin/dashboard 200 in 154ms
+ GET / 200 in 365ms
+ GET /admin/dashboard 200 in 243ms
+ GET / 200 in 159ms
+ ○ Compiling /team/dashboard ...
+ ✓ Compiled /team/dashboard in 1713ms (1513 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 544ms (1511 modules)
+ GET /team/completed 404 in 358ms
+ GET /team/dashboard 200 in 100ms
+ GET / 200 in 239ms
+
+[1m[33mwarn[39m[22m - The class `ease-[cubic-bezier(0.23,1,0.32,1)]` is ambiguous and matches multiple utilities.
+[1m[33mwarn[39m[22m - If this is content and not a class, replace it with `ease-&lsqb;cubic-bezier(0.23,1,0.32,1)&rsqb;` to silence this warning.
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ ○ Compiling /_error ...
+ ⨯ ./app/globals.css:45:3
+Syntax error: C:\Users\Akash\Downloads\VBH\app\globals.css The `ease-[cubic-bezier(0.23,1,0.32,1)]` class does not exist. If `ease-[cubic-bezier(0.23,1,0.32,1)]` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 43 | [39m[90m   ============================================= */[39m
+ [90m 44 | [39m[33m.float-card[39m [33m{[39m
+[1m[31m>[39m[22m[90m 45 | [39m  [36m@apply[39m bg-white border border-black/[33m[[39m0.03[33m][39m transition-all duration-500 ease-[33m[[39m[36mcubic-bezier[39m[36m(0.23,1,0.32,1)[39m[33m][39m[33m;[39m
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 46 | [39m  box-shadow[33m:[39m 
+ [90m 47 | [39m    0 2px 4px [36mrgba[39m[36m(0, 0, 0, 0.02)[39m,
+ GET / 500 in 8576ms
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\Akash\Downloads\VBH\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[12].use[2]!C:\Users\Akash\Downloads\VBH\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[12].use[3]!C:\Users\Akash\Downloads\VBH\app\globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ✓ Compiled /_not-found in 5.8s (1733 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 320ms
+ GET /_next/static/webpack/df7bfc02e1e57b9b.webpack.hot-update.json 404 in 1811ms
+ GET / 200 in 177ms
+ GET / 200 in 144ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 124ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1977ms (813 modules)
+ ✓ Compiled in 1449ms (945 modules)
+ ✓ Compiled in 985ms (945 modules)
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+ ⨯ [Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[Error: UNKNOWN: unknown error, open 'C:\Users\Akash\Downloads\VBH\.next\static\chunks\webpack.js'] {
+  errno: -4094,
+  code: 'UNKNOWN',
+  syscall: 'open',
+  path: 'C:\\Users\\Akash\\Downloads\\VBH\\.next\\static\\chunks\\webpack.js'
+}
+[?25h
+
+C:\Users\Akash\Downloads\VBH>
